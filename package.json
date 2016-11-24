@@ -1,0 +1,23 @@
+{
+  "name": "horloge",
+  "version": "0.0.0",
+  "description": "A Node.js pomodoro-style timer with native notification support.",
+  "license": "MIT",
+  "author": "Nicolas Wormser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iteratehackerspace/horloge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iteratehackerspace/horloge/issues"
+  },
+  "bin": {
+    "metalsmith": "horloge.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}

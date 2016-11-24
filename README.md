@@ -41,3 +41,8 @@ Note: this is not yet implemented
 * Audio support: will send send notification *alongside* or *instead of* (as per configuration) system notifications.
 * Provide links to useful break activities in the break notifications (e.g. Youtube videos to guide you through fitness / Yoga exercises, distracting read etc...) 
 * Full-screen mode for smart-TVs and standalone computers in co-working spaces. Features motivating graphics and autoload of break activities.
+
+
+## Useful resources
+
+* FreeCodeCamp article: [Writing command line applications in Node.js](https://medium.freecodecamp.com/writing-command-line-applications-in-nodejs-2cf8327eee2#.liebnbpwt)
