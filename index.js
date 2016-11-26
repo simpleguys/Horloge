@@ -1,21 +1,24 @@
 #!/usr/bin/env node
-'use strict';
 
 /**
  * Module dependencies
  */
 const horloge = require('commander');
 
-const startTimer = function(opts){
-  if(opts.break_duration) console.log("Started with --break_duration");
-  if(opts.work_duration) console.log("Started with --work_duration");
+const startTimer = function (opts) {
+  if (opts.breakDuration) {
+    console.log('Started with --break_duration %s', opts.breakDuration);
+  }
+  if (opts.workDuration) {
+    console.log('Started with --work_duration %s', opts.workDuration);
+  }
 };
 
 horloge
   .command('start')
   .description('start the Horloge timer.')
-  .option('-b, --break_duration <duration>','Time in minutes for break sessions')
-  .option('-w, --work_duration <duration>','Time in minutes for work sessions')
+  .option('-b, --break-duration <duration>', 'Time in minutes for break sessions')
+  .option('-w, --work-duration <duration>', 'Time in minutes for work sessions')
   .action(startTimer);
 
 horloge.parse(process.argv);
