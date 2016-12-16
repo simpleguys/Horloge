@@ -31,7 +31,7 @@ const setTick = (duration, ref = 60) =>
 // Renders proper output to the console
 const renderTimeLeft = (duration) => {
   let content = '';
-  if (duration === 0) content = "Time's up!";
+  if (duration === 0) content = "Time's up! \n";
   else {
     const [minutes, rem] = toMnSec(duration);
 
